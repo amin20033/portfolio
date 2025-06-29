@@ -1,0 +1,74 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 3s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+img {
+  border-radius: 50%;
+}
+#college img {
+  border-radius: 0%;
+}
+#school img {
+  border-radius: 0%;
+  height: 300px;
+}
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+#strengths {
+  background-color: #f8f9fa;
+}
+ul {
+  list-style: none;
+}
+#web-dev,
+#drum,
+#dice,
+#portfolio,
+#data {
+  background-color: #f8f9fa;
+}
+#home-about {
+  text-align: center;
+}
+@media (max-width: 700px) {
+  img {
+    margin-left: 0%;
+    width: 100%;
+  }
+  #header h1 {
+    text-align: center;
+  }
+  #footer ul {
+    margin-left: 20%;
+  }
+  .c {
+    text-align: center;
+    width: 100%;
+  }
+  .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 701px) and (max-width: 1400px) {
+  #header h1 {
+    width: 100%;
+    text-align: center;
+  }
+}
